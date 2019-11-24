@@ -1,9 +1,23 @@
+body{
+	background-color: #eef4f5;
 
+}
 
+.titre {
+	padding-top: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+.main {
+	background-color: #FFFFFF;
 
+}
+.photos {
+	border: 5px solid #454140;
+	margin: 3% 0 3% 0;
 
+}
 
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
+.show a:hover {
+	background-color: #d6d4e0;
+}
