@@ -21,3 +21,7 @@ body{
 .show a:hover {
 	background-color: #d6d4e0;
 }
+
+.experiences{
+	height: 168px;
+}
