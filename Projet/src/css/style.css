@@ -7,6 +7,9 @@ body{
 	margin-top: 1em;
     margin-bottom: 1rem;
 }
+.etablissement{
+	height: 25em;
+}
 .sous-titre {
 	margin: 5%;
 }
