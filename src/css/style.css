@@ -32,6 +32,18 @@ body{
 	background-color: #d6d4e0;
 }
 
+.envoyer a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.navbar{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 0.9rem;
+	height: 10%;
+}
+
 .experiences{
 	height: 168px;
 }

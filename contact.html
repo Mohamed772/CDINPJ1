@@ -39,7 +39,7 @@
       <div class="col-sm collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="formation.html">Formation</a>
@@ -53,11 +53,11 @@
             </a>
             <div class="dropdown-menu bg-dark menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item text-white" href="natation.html">Natation</a>
-              <a class="dropdown-item text-white active" href="kickboxing.html">Kick-Boxing</a>
+              <a class="dropdown-item text-white" href="kickboxing.html">Kick-Boxing</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:benbelkacem.mohamed77@gmail.com?subject=Nouveau%20message%20depuis%20le%20e-portfolio">Me contacter</a>
+            <a class="nav-link active" href="contact.html" >Me contacter</a>
           </li>
         </ul>
       </div>
@@ -69,34 +69,30 @@
       <div class="text-center titre">
         <h1 class="">E-portfolio • Me contacter</h1>
       </div>
-
-      <img src="src/img/frida-aguilar-estrada-tSiDSZEr4UQ-unsplash.jpg" class="img-fluid rounded " alt="https://unsplash.com/photos/JjUyjE-oEbM">
-      <p class="text-center paragraphe">La Boxe fait partie des sports que j'aime beaucoup et que je pratique régulièrement. Plus particulièrement le Kick-Boxing </p>
-      <div class="text-center sous-titre">
-        <h2 class="">Historique de mes ceintures</h2>
-      </div>
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">Année</th>
-            <th scope="col">Ville</th>
-            <th scope="col">Ceinture</th>
-            <th scope="col">Age</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-          <tr>
-            <th scope="row">2018</th>
-            <td>Bussy-Saint-Georges</td>
-            <td>Verte</td>
-            <td>17</td>
-          </tr>
-          
-        </tbody>
-      </table>
-
-      
+      <form>
+        <div class="form-row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="InputPrenom">Prénom</label>
+            <input type="text" class="form-control" placeholder="Prénom" id="InputPrenom">
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="InputNon">Nom</label>
+            <input type="text" class="form-control" placeholder="Nom" id="InputNom">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Adresse email</label>
+          <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="ex:PrénomNom@hotmail.fr">
+          <small id="emailHelp" class="form-text text-muted">Votre email restera anonyme.</small>
+        </div>
+        <div class="form-group">
+          <label for="InputTexte">Votre message</label>
+          <textarea class="form-control" id="InputTexte" placeholder="Tapper votre message ici."> </textarea>
+        </div>
+        
+          <button type="submit" class="btn btn-primary envoyer"><a href="mailto:benbelkacem.mohamed77@gmail.com?subject=Nouveau%20message%20depuis%20le%20e-portfolio">Envoyer</a></button>
+        
+      </form>
 
     </div>
 
