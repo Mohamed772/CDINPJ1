@@ -18,6 +18,28 @@ body{
     margin-bottom: 2%;
     padding-bottom: 1%;
 }
+.titre h1 {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.titre h1:hover {
+	font-size: 3em;
+}
+.carte-formation h2{
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+} 
+.carte-formation h2:hover{
+	font-size: 3em;
+}
+.carte-formation:hover{
+	height: 100px;
+}
+.carte-formation{
+	-webkit-transition: height 1s;
+	transition: height 1s;
+}
+
 .main {
 	background-color: #FFFFFF;
 
@@ -28,6 +50,15 @@ body{
 
 }
 
+/* menu en column
+.navbar-nav {
+	display: block;
+}
+nav {
+	width: 18%;
+	float: left;
+}
+/* menu en column*/
 .show a:hover {
 	background-color: #d6d4e0;
 }
@@ -36,12 +67,26 @@ body{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-
+.video {
+	width: 100%;
+	margin: auto;
+}
 .navbar{
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 0.9rem;
 	height: 10%;
+}
+
+.navbar a{ 
+	-webkit-transition: 0.8s;
+	transition: 0.8s;
+	transition-delay: 0.1s;
+	-webkit-transition-delay: 0.1s;
+}
+
+.navbar a:hover {
+	font-size: 1.3em;
 }
 
 .experiences{
